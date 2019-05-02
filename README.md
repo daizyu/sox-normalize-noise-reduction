@@ -1,17 +1,17 @@
-#This is
+# This is
 If you need to modify wave files , you can choose it.
 This tool's functions are 
 - normalize
 - noise reduction
 
-#Compile & install
+# Compile & install
 
-##Download sox from below url
+## Download sox from below url
 (https://sourceforge.net/projects/sox/)
 
 ##Copy calibration.cs to {SOX_PATH}
 
-##Find C# compiler
+## Find C# compiler
 cd c:\windows
 dir /b /s | findstr csc.exe
 
@@ -22,7 +22,7 @@ c:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe.config
                        : 
                        : 
 
-##Compile
+## Compile
 cd {SOX_PATH}
 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe  -target:library -out:calibration.exe calibration.cs
 
@@ -31,7 +31,7 @@ c:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe  -target:library -out:ca
 # Basic
 {SOX_PATH}\calibration.exe {Your Wave File}
 
-#Noise reduction
+# Noise reduction
 please put noise reduction wave file {SOX_PATH}.
 
 Reduction wave file names are 
@@ -42,7 +42,7 @@ Reduction wave file names are
      :
 - noise9.wav
 
-#How to create noise reduction wave file
+# How to create noise reduction wave file
 Please create only noise wave after calibrate using Wave File Editor.
 My recomended Wave File Editor is Audacity. 
 (https://www.audacityteam.org/)
