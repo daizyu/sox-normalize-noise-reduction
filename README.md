@@ -18,8 +18,8 @@ dir /b /s | findstr csc.exe
 c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
 c:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe.config
 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
-c:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe.config 
-                       : 
+c:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe.config  
+                       :  
                        : 
 
 ## Compile
@@ -37,8 +37,8 @@ please put noise reduction wave file {SOX_PATH}.
 Reduction wave file names are 
 - noise1.wav
 - noise2.wav
-- noise3.wav 
-     : 
+- noise3.wav  
+     :  
      :
 - noise9.wav
 
